@@ -2,7 +2,7 @@
 
 ### [库地址](https://github.com/yndongyong/GuideView)
 
-[demo](/dest/app_guideview-debug.apk)
+[demo](https://github.com/yndongyong/GuideView/blob/master/dest/app_guideview-debug.apk)
 
 ### 作用
 实现页面引导，提示用户操作。用户引导结合场景，以图层的形式叠加到对应的View上。高亮效果支持矩形、圆角矩形、圆形、椭圆四种形状，以及支持高斯模糊的效果。
@@ -76,7 +76,7 @@ new GuideViewHelper.Builder()
 
 #### 2、 扩展对齐方式
 
-提供的对齐放肆若不满足需求，可以继承ItemDecoration扩展，实现如下的方法：
+提供的对齐方式若不满足需求，可以继承ItemDecoration扩展，实现如下的方法：
 
 ``` public abstract int[] getOffsetLeftAndTop(CutoutViewInfo cutoutViewInfo, int offsetX, int offsetY); ```
 
