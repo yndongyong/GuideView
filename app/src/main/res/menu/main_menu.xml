@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+   <item
+       android:id="@+id/id_menu_show_rectangle"
+       android:title="矩形"
+       app:showAsAction="never"
+       />
+
+   <item
+       android:id="@+id/id_menu_show_roundrect"
+       android:title="圆角矩形"
+       app:showAsAction="never"
+       />
+
+   <item
+       android:id="@+id/id_menu_show_circle"
+       android:title="圆形"
+       app:showAsAction="never"
+       />
+   <item
+       android:id="@+id/id_menu_show_oval"
+       android:title="椭圆"
+       app:showAsAction="never"
+       />
+</menu>
